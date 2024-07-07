@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img src="workplace.jpg" width="400px" height="379px" usemap="#workmap"> 
+<map name="workmap">
+<area shape="rect" coords="34,44 270,347" href="Computer.html"onclick="myfunc('You clicked the Computer')">
+<area shape="rect" coords="289,172 333,250" href="cellphone.html" onclick="myfunc('You clicked the cellphone')">
+<area shape="circle" coords="337,300,44" href="coffecup.html" onclick="myfunc('You clicked the coffee Cup')">
+</map>
+<script>
+function myfunc(func){
+return alert(func);
+}
+</script>
+</body>
+</html>
